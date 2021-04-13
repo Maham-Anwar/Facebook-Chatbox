@@ -1,0 +1,233 @@
+*::-webkit-scrollbar {
+   width: 12px;
+ }
+ 
+ *::-webkit-scrollbar-track {
+   background: #242526;
+ }
+ 
+ *::-webkit-scrollbar-thumb {
+   background-color: grey;
+   border-radius: 20px;
+   border: 3px solid #242526;
+ }
+body{
+   overflow:hidden;
+}
+.main-container{
+   bottom: 0%;
+   margin-bottom: -30px;
+   margin-left: 65%;
+    width: 320px !important;
+    height: 470px !important;
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    position: absolute;
+   
+    
+}
+img{
+   max-width: 100%;
+   border-radius: 50%;
+   
+}
+.header{
+   border: 0px solid #242526;
+   border-top-left-radius: 6px;
+   border-top-right-radius: 6px;
+   width: 100%;
+   height: 10%;
+   border-bottom: none;
+   display: inline-block;
+   background-color: #242526;
+   
+} 
+.imageForHeader{
+   position: relative;
+   border-radius: 50%;
+   width: 40px;
+   margin-left: 3%;
+   margin-top: 5px;
+   float: left;
+   
+}
+.imageForHeader i, .imageFormessage1 i ,.imageFormessage2 i,.imageFormessage3 i { 
+   position: absolute;
+    color: green;
+    font-size: 8px;
+    bottom: 5px;
+    left: 30px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.name{
+    width: 120px;
+    float:left;
+    
+
+}
+.name h4{
+   font-size: 15px;
+   margin-top: 10px;
+   margin-left: 10px;
+   color: #fff;
+}
+.name h6{
+   font-size: 10px;
+   margin-left: 10px;
+   margin-top: -15px;
+   line-height: 2px;
+   color: grey;
+}
+.iconsForHeader{
+    width: 150px;
+    height: 30px;
+    float: right;
+    margin-top: -50px;
+    margin-right: 1px;
+    
+    
+
+}
+.iconsForHeader i{
+   font-size: 20px;
+   padding: 6px;
+   color: #0084ff;
+}
+.messages{
+   width: 100%;
+   height: 70%;
+   display: inline-block;
+   background-color: #242526;
+   margin-top: -3px;
+   overflow-y: scroll;
+   
+}
+.imageFormessage1,.imageFormessage2,.imageFormessage3{
+   position: relative;
+   border-radius: 50%;
+   width: 40px;
+   margin-left: 3%;
+   margin-top: 80px;
+   float: left;
+}
+.imageFormessage2{
+   margin-top: 40px  !important;
+}
+.imageFormessage3{
+   margin-top: 70px  !important;
+}
+.msgR1 p,.msgR2 p{
+   width: 50%;
+   margin-left: 55px;
+   margin-top: 5px;
+   padding: 10px 10px;
+   display: block;
+   border-radius: 20px;
+   color: #fff;
+   background-color: #3e4042;
+}
+.msgS1 .p1,.msgS2 .ps1{
+   width: 50%;
+   padding: 10px 10px;
+   margin-left: 130px;
+   margin-top: -10px;
+   display: block;
+   border-radius: 20px;
+   color: #fff;
+   background-color:#0084ff ;
+   border-bottom-right-radius: 2px;
+}
+.msgS2 .ps1{
+   margin-top: 5px;
+}
+.msgS1 .p2,.msgS2 .ps2{
+   width: 50%;
+   padding: 10px 10px;
+   margin-left: 130px;
+   margin-top: -14px;
+   display: block;
+   border-radius: 20px;
+   color: #fff;
+   background-color:#0084ff ;
+   border-top-right-radius: 2px;
+}
+.msgR2 p{
+   border-bottom-left-radius: 2px;
+}
+.msgReceive3{
+   margin-top: -14px;
+}
+.imgMsg{  
+    border-radius: 20px ;
+    width: 60%;
+    margin-left: 5px;
+    border-top-left-radius: 2px;
+}
+.seen{
+   float: right;
+   color: grey;
+   margin-top: -40px !important;
+   margin-right: 15px;
+}
+.seen p{
+   margin-top: -20px;
+}
+.seen i{
+   font-size: 12px;
+   padding: 5px 5px;
+   margin-left: -25px;
+   margin-top: 30px;
+   color:grey;
+   
+}
+
+textarea {
+   font-size: 14px;
+   padding: 6px;
+   margin-top: -4px;
+   border: 0px solid #242526;
+   width: 96.2%;
+   height: 20px ;
+   background-color: #3e4042;
+   color: #fff;
+   resize: none;
+   
+}
+/* For making the text area not highlight its border when we click on it  */
+ *:focus { 
+   outline: none;
+}
+.bottomIcons{
+   width: 100%;
+   height: 7%;
+   margin-top: -5px;
+   background-color:#242526;
+   box-shadow: 0px 5px 3px rgb(32, 31, 31);
+   border-bottom-left-radius: 2px;
+   border-bottom-right-radius: 2px;
+}
+.bottomIcons i{
+   font-size: 17px;
+   padding: 6px;
+   margin-top: 5px;
+   float: left;
+   color: #0084ff;
+}
+.right{
+   float: right;
+   margin-right: 5px;
+}
+ i:hover{
+   border-radius: 50px;
+   opacity: 0.8;
+   background-color:#3e4042 ;
+}
+.ImageSent i:hover{
+   border-radius: 75px;
+}
+
+/* .side-icons i{
+   color: grey;
+   padding: 4px 4px;
+} */
